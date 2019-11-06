@@ -1,0 +1,251 @@
+<resources>
+    <!-- Menu items -->
+    <string name="app_name">My KOALA</string>
+    <string name="home">Home</string>
+    <string name="info">Information</string>
+    <string name="about">About</string>
+    <string name="fitbit">Fitbit Account</string>
+    <string name="help">Help</string>
+
+    <!-- Fitbit request formats -->
+    <string name="fitbit_date_format">yyyy-MM-dd</string>
+
+    <!-- Text for main page -->
+
+    <string name="main_heading">Activity Summary</string>
+    <string name="last_updated_at">Last updated at %1$s</string>
+    <string name="time_format">HH:mm</string>
+
+    <!-- Text with placeholders for data -->
+    <string name="non_sed_time_values">Daily\nnon-sedentary time\n\n%1$d of %2$s\nhours</string>
+    <string name="cal_burn_values">Daily\ncalorie burn\n\n%1$d of %2$s\ncalories</string>
+    <string name="active_time_values">Weekly\nactive time\n\n%1$d of %2$s\nminutes</string>
+    <string name="strength_ex_values">Weekly\nexercises\n\n%1$d of %2$s\nsessions</string>
+
+    <!-- Text for when data is loading / cannot be loaded -->
+    <string name="non_sed_time_loading">Daily\nnon-sedentary time\n\n%1$s</string>
+    <string name="cal_burn_loading">Daily\ncalorie burn\n\n%1$s</string>
+    <string name="active_time_loading">Weekly\nactive time\n\n%1$s</string>
+    <string name="strength_ex_loading">Weekly\nexercises\n\n%1$s</string>
+
+    <string name="loading_data">Loading\ndata&#8230;</string>
+    <string name="data_error">Unable to\nload data</string>
+    <string name="fitbit_error_home">Unable to load Fitbit data. Please make sure you are connected
+    to the Internet. If the problem persists please try again later.</string>
+
+    <!-- Homepage buttons -->
+    <string name="update_goals">\u0020\u0020\u0020\u0020Update Activity Goals\u0020\u0020\u0020\u0020</string>
+    <string name="track_symptoms">Track Symptoms</string>
+    <string name="track_weight">Track Weight</string>
+
+    <!-- Homepage login dialog -->
+    <string name="dialog_welcome">Welcome to My KOALA, your Knee OsteoArthritis Lifestyle Application.
+        Before proceeding, please login with your Fitbit account.</string>
+    <string name="dialog_token_expired">My KOALA was unable to automatically connect to your Fitbit
+        account.
+        \n\nPossible reasons for this include:
+        \n\u2022 You haven\'t connected your Fitbit account yet.
+        \n\u2022 You logged out of your Fitbit account.
+        \n\u2022 Occasionally we need to re-verify that you\'re happy for the app to access your Fitbit data.
+        \n\u2022 An error occurred.
+        \n\nWhen you click Continue you will be redirected to the Fitbit
+        authorisation page. Please follow the instructions to allow My KOALA to access your data.
+        You should then be able to use the app as normal.</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- Homepage help dialog -->
+    <string name="home_help_title">Tutorial</string>
+    <string-array name="home_help_texts">
+        <item>This is the My KOALA homepage.\nFrom here you can:
+        \n\n\u2022 Click on one of the activity tiles from the square below to view additional data.
+        \n\n\u2022 Choose the exercises tile to go to the exercises summary page.
+        You can then access instructional videos via the "View Exercises" button
+        and mark the days when you completed the exercises.
+        \n\n\u2022 Access symptom tracking, weight tracking and the goal setting page from the
+        buttons at the bottom.</item>
+
+        <item>When you set an activity goal it is displayed on the homepage,
+        and your progress towards the goal is shown by the colour of the tile.
+        \n\nIf you haven\'t set a goal yet, a \"-\" will be
+        displayed and the tile will be grey.</item>
+
+        <item>You can access other functionality in the app by clicking the menu icon in the top left.
+        Under the Information section you\'ll find advice about how to manage your knee OA
+        and making lifestyle changes.
+        \n\nTo view this tutorial again, choose the Help option from the menu.</item>
+    </string-array>
+    <string name="next_btn">Next</string>
+    <string name="ok_btn">Ok</string>
+
+    <!-- Activity Data screen strings -->
+
+    <string name="single_activity_heading">Activity Data</string>
+    <string name="non_sed_heading">Non-Sedentary Time</string>
+    <string name="cal_burn_heading">Calorie Burn</string>
+    <string name="active_heading">Active Time</string>
+
+    <string name="non_sed_unit_hour">Steps Per Hour</string>
+    <string name="cal_burn_unit_day">Calories Per Day</string>
+    <string name="active_unit_day">Minutes Per Day and Running Totals</string>
+
+    <string name="week_heading_this_week">This Week</string>
+    <string name="week_heading_with_dates">%1$s - %2$s</string>
+    <string name="week_heading_date_format">dd/MM/yy</string>
+
+    <string name="day_heading_today">Today</string>
+    <string name="day_heading_date_format">EEEE dd MMMM</string>
+
+    <string name="active_legend_daily">Daily</string>
+    <string name="active_legend_total">Running Total</string>
+
+    <string name="loading_graph">Loading data...</string>
+    <string name="view_detailed_data">Click on a day to view more detailed data.</string>
+
+    <string name="non_sed_unit">hours</string>
+    <string name="cal_burn_unit">calories</string>
+    <string name="active_unit">minutes</string>
+
+    <string name="goal_value_unit">Goal: %1$d %2$s</string>
+    <string name="goal_hours_steps">Goal: %1$d hours with %2$d steps or more.</string>
+    <string name="no_goal_set">No goal set.</string>
+
+    <!-- Exercises strings -->
+
+    <string name="strength_ex_heading">Exercises</string>
+    <string name="start_session">View Exercises</string>
+    <string name="ex_sessions_goal">You should aim to complete these exercises twice a week.</string>
+
+    <string-array name="exercise_names">
+        <item>Knee Mobility</item>
+        <item>Leg Slide</item>
+        <item>Thigh Stretch</item>
+        <item>Hamstring Stretch</item>
+        <item>Sit To Stand</item>
+        <item>Step Ups</item>
+        <item>Mini Squat</item>
+        <item>Leg Cross</item>
+        <item>Thigh Squeeze</item>
+        <item>Leg Extension</item>
+        <item>Straight Leg Raise</item>
+        <item>Calf Raise</item>
+        <item>Hamstring Curl</item>
+        <item>Wall Squat</item>
+        <item>Step Downs</item>
+        <item>Stand On One Leg</item>
+        <item>Foot Alphabet</item>
+    </string-array>
+
+    <string-array name="exercise_instructions">
+        <item>Repeat for one minute and then swap legs.</item>
+        <item>Repeat up to three times and then swap legs.</item>
+        <item>Repeat for one minute.</item>
+        <item>Repeat for one minute, then swap your leading leg and repeat.</item>
+        <item>At a steady pace repeat for one minute.</item>
+        <item>Repeat five times and then swap legs.</item>
+        <item>Do four repetitions on one side or an accumulated time of one minute,
+            then repeat on the other leg.</item>
+        <item>See how far you can get through the alphabet, then swap legs and repeat.</item>
+    </string-array>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+    <string name="finish">Finish</string>
+    <string name="exercise_x_of_y">%1$d of %2$d</string>
+    <string name="video_error">An error occurred while trying to play the video.</string>
+
+    <!-- Update goals strings -->
+
+    <string name="update_goals_heading">Activity Goals</string>
+    <string name="fitbit_error_update_goals">My KOALA is unable to connect to Fitbit.
+    Recommendations could not be calculated and your calorie burn goal cannot be
+    viewed or updated. Please try again later.</string>
+
+    <string name="non_sed_time_with_unit">Daily non-sedentary time (hours)</string>
+    <string name="cal_burn_with_unit">Daily calorie burn (calories)</string>
+    <string name="active_time_with_unit">Weekly active time (minutes)</string>
+    <string name="app_recommends">My KOALA recommends</string>
+
+    <string name="update_goals_advice_text">My KOALA calculates recommended goals based on
+    your recent activity data and symptom scores. These are intended to act as a guide for you in
+    setting your goals. It is best to aim for small, sustainable increases. You are advised to
+    speak to your doctor before starting a new exercise program.</string>
+
+    <!-- Track weight strings -->
+
+    <string name="track_weight_heading">Track Weight</string>
+    <string name="month_heading_this_month">This Month</string>
+    <string name="month_heading_month_year">%1$s %2$d</string>
+    <string name="current_weight">Current weight:</string>
+    <string name="new_weight">New weight:</string>
+    <string name="goal_weight">Goal weight:</string>
+    <string name="weight_kg">kg</string>
+    <string name="update">Update</string>
+
+    <string name="error_invalid_weight">Please enter a valid weight.</string>
+    <string name="error_invalid_goal">Please enter a valid goal (minimum 10kg).</string>
+    <string name="error_missing_current">Please update your current weight before updating your goal.</string>
+    <string name="weight_goal_met">Congratulations on meeting your goal. Keep up the good work!</string>
+
+    <!-- Track symptoms strings -->
+
+    <string name="track_symptoms_heading">Track Symptoms</string>
+    <string name="symptoms_set">Set</string>
+    <string name="rate_pain">How would you rate your pain today?</string>
+    <string name="rate_function">How would you rate your function today?</string>
+
+    <!-- About page strings -->
+    <string name="about_heading">About My KOALA</string>
+
+    <string name="about_text">My KOALA (My Knee OsteoArthritis Lifestyle Application) is aimed at
+        helping people who have knee osteoarthritis to manage their condition.
+        \n\nThe app has been developed by a student at the University of Bath in conjunction with
+        Dr Simon Jones, a lecturer in Human-Computer Interaction in the Department of Computer
+        Science, and Dr Enhad Chowdhury, a research associate in the Department for Health.
+        \n\nMy KOALA is not intended to be a substitute for medical advice. Please speak to your
+        doctor before starting a new exercise or weight loss program.</string>
+
+    <!-- Information strings -->
+
+    <string name="info_heading">Information and Advice</string>
+    <string-array name="topic_names">
+        <item>Knee OA</item>
+        <item>Physical Activity</item>
+        <item>Strengthening Exercises</item>
+        <item>Weight and Diet</item>
+    </string-array>
+
+    <string name="last_updated_on">Last updated on %1$s</string>
+    <string name="article_list_error">An error occurred while loading the articles.</string>
+    <string name="read_article_error">An error occurred while loading the article.</string>
+
+    <!-- Strings related to Fitbit authorisation/login/account -->
+
+    <string name="fitbit_account_heading">My Fitbit Account</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="logged_in_as">You are logged in as %1$s.</string>
+    <string name="log_out">Log out</string>
+    <string name="fitbit_error_get_name">Could not retrieve login details.</string>
+
+    <!-- Shared preferences keys -->
+
+    <string name="pref_file_key">com.example.koala.PREFERENCE_FILE_KEY</string>
+    <string name="access_token_key">access_token_key</string>
+    <string name="expires_on_key">expires_on_key</string>
+    <string name="prompt_login_key">prompt_login_key</string>
+    <string name="active_goal_key">active_goal_key</string>
+    <string name="non_sed_goal_key">non_sed_goal_key</string>
+    <string name="home_refresh_key">home_refresh_key</string>
+    <string name="home_calorie_goal_key">home_calorie_goal_key</string>
+    <string name="home_calorie_value_key">home_calorie_value_key</string>
+    <string name="home_active_value_key">home_active_value_key</string>
+    <string name="home_non_sed_value_key">home_non_sed_value_key</string>
+    <string name="api_limit_date_key">api_limit_date_key</string>
+    <string name="api_limit_count_key">api_limit_count_key</string>
+    <string name="goal_rec_date_key">goal_rec_date_key</string>
+    <string name="non_sed_rec_key">non_sed_rec_key</string>
+    <string name="calorie_rec_key">calorie_rec_key</string>
+    <string name="active_rec_key">active_rec_key</string>
+    <string name="show_welcome_key">show_welcome_key</string>
+
+</resources>

@@ -1,0 +1,11 @@
+My KOALA measures three components of your physical activity: non-sedentary time, calorie burn and active time. Non-sedentary time and calorie burn are measured on a daily basis and active time is measured on a weekly basis.
+
+Non-sedentary time is defined in My KOALA as the number of hours in the day where you took 200 steps or more. The idea behind this goal is to encourage you to take regular breaks because even if you do lots of exercise, sitting down for long periods of time can be bad for your health.
+
+Calorie burn is the total number of calories burned during the day so far. This includes calories burned when you're at rest and when you're active.
+
+Active time is the number of minutes of moderate-to-vigorous intensity activity which you have completed in the week so far.
+
+Sources:
+1. https://www.nhs.uk/live-well/exercise/why-sitting-too-much-is-bad-for-us/
+2. https://dev.fitbit.com/build/reference/web-api/activity/#activity-time-series

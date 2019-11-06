@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adapted from https://developer.android.com/training/implementing-navigation/nav-drawer by Google -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/AppTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <!-- non-sedentary time -->
+        <TextView
+            android:id="@+id/tv_non_sed_goal"
+            android:layout_alignBottom="@+id/et_non_sed_goal"
+            android:text="@string/non_sed_time_with_unit"
+            style="@style/GoalNameTextView"/>
+
+        <EditText
+            android:id="@+id/et_non_sed_goal"
+            android:layout_below="@+id/toolbar"
+            style="@style/GoalEditText"/>
+
+        <TextView
+            android:id="@+id/tv_non_sed_rec_text"
+            android:layout_below="@+id/et_non_sed_goal"
+            style="@style/RecommendedGoalTextView"/>
+
+        <TextView
+            android:id="@+id/tv_non_sed_rec_value"
+            android:layout_alignBottom="@+id/tv_non_sed_rec_text"
+            style="@style/RecommendedValueTextView"/>
+
+        <!-- calorie burn -->
+        <TextView
+            android:id="@+id/tv_cal_burn_goal"
+            android:layout_alignBottom="@+id/et_cal_burn_goal"
+            android:text="@string/cal_burn_with_unit"
+            style="@style/GoalNameTextView"/>
+
+        <EditText
+            android:id="@+id/et_cal_burn_goal"
+            android:layout_below="@+id/tv_non_sed_rec_text"
+            style="@style/GoalEditText"/>
+
+        <TextView
+            android:id="@+id/tv_cal_burn_rec_text"
+            android:layout_below="@+id/et_cal_burn_goal"
+            style="@style/RecommendedGoalTextView"/>
+
+        <TextView
+            android:id="@+id/tv_cal_burn_rec_value"
+            android:layout_alignBottom="@+id/tv_cal_burn_rec_text"
+            style="@style/RecommendedValueTextView"/>
+
+        <!-- active time -->
+        <TextView
+            android:id="@+id/tv_active_time_goal"
+            android:layout_alignBottom="@+id/et_active_time_goal"
+            android:text="@string/active_time_with_unit"
+            style="@style/GoalNameTextView"/>
+
+        <EditText
+            android:id="@+id/et_active_time_goal"
+            android:layout_below="@+id/tv_cal_burn_rec_text"
+            style="@style/GoalEditText"/>
+
+        <TextView
+            android:id="@+id/tv_active_time_rec_text"
+            android:layout_below="@+id/et_active_time_goal"
+            style="@style/RecommendedGoalTextView"/>
+
+        <TextView
+            android:id="@+id/tv_active_time_rec_value"
+            android:layout_alignBottom="@+id/tv_active_time_rec_text"
+            style="@style/RecommendedValueTextView"/>
+
+        <!-- advice section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:textSize="18dp"
+            android:text="@string/update_goals_advice_text"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/nav_view"/>
+
+</android.support.v4.widget.DrawerLayout>

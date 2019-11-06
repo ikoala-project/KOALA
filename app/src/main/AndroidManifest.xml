@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.koala">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ExercisesSummaryActivity"
+            android:label="@string/strength_ex_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TrackSymptomsActivity"
+            android:label="@string/track_symptoms_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TrackWeightActivity"
+            android:label="@string/track_weight_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityDataActivity"
+            android:label="@string/single_activity_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManageFitbitActivity"
+            android:label="@string/fitbit_account_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UpdateGoalsActivity"
+            android:label="@string/update_goals_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity">
+            <!-- Adapted from
+            https://stackoverflow.com/questions/33814946/android-chrome-custom-tabs-fitbit-web-api-wont-redirect-if-app-is-already-aut
+            by Buruiană Cătălin -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="logincallback"
+                    android:scheme="koala" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExerciseVideoActivity"
+            android:label="@string/strength_ex_heading"
+            android:parentActivityName=".ExercisesSummaryActivity" />
+        <activity
+            android:name=".ReadArticleActivity"
+            android:parentActivityName=".ArticleListActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/info_heading"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ArticleListActivity"
+            android:parentActivityName=".InfoActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

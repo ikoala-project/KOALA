@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#028551</color>
+    <color name="colorPrimaryDark">#005728</color>
+    <color name="colorAccent">#028551</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGrey">#3A3A3A</color>
+    <color name="colorMediumGrey">#707070</color>
+
+    <!-- Colours representing how close the user is to meeting their goal -->
+    <color name="colorProgressGreen">#66e869</color>
+    <color name="colorProgressYellow">#FCEC5C</color>
+    <color name="colorProgressAmber">#FBA753</color>
+    <color name="colorProgressRed">#FB4E4E</color>
+
+    <!-- For while the data is loading or if no goal has been set -->
+    <color name="colorProgressGrey">#d6d6d6</color>
+
+    <!-- Other graph colours -->
+    <color name="colorGraph1">#8fa2d4</color>
+    <color name="colorGraph2">#a5a5a5</color>
+</resources>

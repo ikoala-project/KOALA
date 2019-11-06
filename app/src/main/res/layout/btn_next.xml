@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used for navigating between charts or videos -->
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_next"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignBaseline="@id/tv_current_heading"
+    style="?android:attr/borderlessButtonStyle"/>

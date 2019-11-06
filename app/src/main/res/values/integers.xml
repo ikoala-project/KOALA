@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thresholds for colours given to activity data out of 100, e.g. 75 is 75% of goal -->
+    <integer name="amber_threshold">75</integer>
+    <integer name="yellow_threshold">90</integer>
+
+    <!-- The minimum number of steps for an hour to be counted as non-sedentary -->
+    <integer name="steps_threshold">200</integer>
+
+    <!-- Goal for number of sessions of exercises per week -->
+    <integer name="strength_ex_goal">2</integer>
+
+    <!-- Limit on number of API requests per user per hour -->
+    <integer name="fitbit_api_limit">150</integer>
+
+    <!-- How long to wait in minutes before refreshing the homepage data -->
+    <integer name="mins_to_refresh">15</integer>
+
+    <!-- Maximum pain and function score values -->
+    <integer name="pain_score_max">10</integer>
+    <integer name="function_score_max">10</integer>
+
+    <!-- Used in calculating recommended goals.
+    The recommended value is average achieved value over recent days + increment given below -->
+    <integer name="non_sed_goal_inc">1</integer>
+    <integer name="active_mins_goal_inc">5</integer>
+    <integer name="cal_burn_goal_inc">20</integer>
+
+</resources>
